@@ -86,6 +86,12 @@
             <div class="title m-b-md">
                 {{$hw}}
             </div>
+
+            <div>
+                @foreach ($menu as $el)
+                <h2>{{$el}}</h2>
+                @endforeach
+            </div>
         </div>
     </div>
 </body>

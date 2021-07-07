@@ -18,6 +18,12 @@ Route::get('/', function () {
 
     $data = [
         'hw' => 'Hello World!',
+        'menu' => [
+            'Home',
+            'About Us',
+            'Forum',
+            'Contacts'
+        ],
     ];
 
     return view('home', $data);
